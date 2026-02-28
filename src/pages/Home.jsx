@@ -33,7 +33,7 @@ export default function Home() {
     <div className="submit-notification">
         <button className="submit-close" onClick={() => setSubmittedBux(null)}>x</button>
         <p className="notification-header">Success!</p>
-        <img src="./assets/images/noglux-bux.png" className="noglux-bux"></img>
+        <img src={process.env.PUBLIC_URL + "/assets/images/noglux-bux.png"}></img>
         <p className="notification-text">
         <span className="bux-highlight">
             {submittedBux}
