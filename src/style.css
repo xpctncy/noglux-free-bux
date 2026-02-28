@@ -1,0 +1,204 @@
+* {
+    font-family: 'Franklin Gothic Medium';
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    color: #ecece9;
+}
+body {
+    width: 100vw;
+    height: 100vh;
+    overflow: hidden;
+    background-color: #010101;
+}
+#root, .App {
+    width: 100%;
+    height: 100%;
+}
+.page {
+    width: 100%;
+    height: 100%;
+    display: flex;
+}
+.main {
+    width: 100%;
+    height: 100%;
+}
+.bux-title {
+    text-align: center;
+    margin-top: 3rem;
+}
+.bux-container {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 15rem;
+    height: 15rem;
+    padding: 0.4rem;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    background-color: #1e1718;
+    border-radius: 8px;
+    align-items: center;
+    justify-content: center;
+}  
+.bux-form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 70%;
+    justify-content: space-evenly;
+} 
+.bux-input {
+    padding: 0.3rem;
+    width: 100%;
+    font-size: 0.9rem;
+    border-radius: 8px;
+    border-style: solid;
+    border-color: #6b6b6b;
+    background-color: #1e1718;
+}
+.bux-sign {
+    font-size: 2.4rem;
+}
+.bux-submit {
+    padding: 0.2rem;
+    width: 5rem;
+    background-color: #1e1718;
+    border-radius: 8px;
+    border-style: solid;
+    border-color: #6b6b6b;
+}
+.notification-header {
+    font-size: 1.8rem;
+}
+.notification-text {
+    font-size: 1.1rem;
+}
+.submit-notification {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 15rem;
+    height: 15rem;animation: slideIn 0.6s ease-out forwards;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    background-color: #1e1718;
+    border-radius: 8px;
+    justify-content: space-evenly;
+    animation: slideInTop 0.5s ease-out forwards;
+}
+@keyframes slideInTop {
+  from {
+    transform: translate(-50%, -150%);
+    opacity: 0;
+  }
+  to {
+    transform: translate(-50%, -50%);
+    opacity: 1;
+  }
+}
+.submit-close {
+    position: absolute;
+    top: 0.5rem;
+    right: 1.2rem;
+    background: transparent;
+    border-style: hidden;
+    font-size: 1.8rem;
+}
+
+.bux-highlight {
+    color: #4fe883;
+}
+.site-warning {
+    background-color:#1e1718;   
+    position: absolute;
+    bottom: 0;
+    text-align: center;
+    font-size: 1rem;
+    width: 100%;
+}
+
+@media (min-width: 768px) {
+    .bux-container {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        width: 35rem;
+        height: 35rem;
+        padding: 0.4rem;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+        background-color: #1e1718;
+        border-radius: 8px;
+    }
+    .bux-form {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 70%;
+        height: 70%;
+        justify-content: space-evenly;
+    }
+    .bux-input {
+        padding: 1rem;
+        width: 100%;
+        font-size: 1.5rem;
+        border-radius: 8px;
+        border-style: solid;
+        border-color: #6b6b6b;
+        background-color: #1e1718;
+    }
+    .bux-submit {
+        padding: 0.2rem;
+        width: 12rem;
+        background-color: #1e1718;
+        border-radius: 8px;
+        border-style: solid;
+        border-color: #6b6b6b;
+        font-size: 2rem;
+    }
+    .submit-notification {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        width: 35rem;
+        height: 35rem;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+        background-color: #1e1718;
+        border-radius: 8px;
+        justify-content: space-evenly;
+    }
+    .submit-close {
+        position: absolute;
+        top: 0.5rem;
+        right: 1.2rem;
+        background: transparent;
+        border-style: hidden;
+        font-size: 3rem;
+        cursor: pointer;
+    }
+    .notification-header {
+        font-size: 3rem;
+    }
+    .polytoria-brick {
+        width: 10rem;
+    }
+    .notification-text {
+        font-size: 1.8rem;
+    }
+
+
+}
