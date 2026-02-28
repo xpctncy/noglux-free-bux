@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/noglux-free-bux/static/css/main.e435c1ef.css",
+    "main.js": "/noglux-free-bux/static/js/main.ae38af0a.js",
+    "static/js/453.20359781.chunk.js": "/noglux-free-bux/static/js/453.20359781.chunk.js",
+    "index.html": "/noglux-free-bux/index.html",
+    "main.e435c1ef.css.map": "/noglux-free-bux/static/css/main.e435c1ef.css.map",
+    "main.ae38af0a.js.map": "/noglux-free-bux/static/js/main.ae38af0a.js.map",
+    "453.20359781.chunk.js.map": "/noglux-free-bux/static/js/453.20359781.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.e435c1ef.css",
+    "static/js/main.ae38af0a.js"
+  ]
+}
